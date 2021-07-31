@@ -13,4 +13,6 @@ public interface UserMapper {
     public List<User> findAll() throws IOException;
 
     public User findById(int id);
+
+    int age();
 }
