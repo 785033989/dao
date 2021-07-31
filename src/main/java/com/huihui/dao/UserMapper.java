@@ -15,4 +15,6 @@ public interface UserMapper {
     public User findById(int id);
 
     int age();
+    
+    int number();
 }
